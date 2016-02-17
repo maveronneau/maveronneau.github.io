@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Portfolio</h1>
+
+  <ul>
+      {% for item in site.portfolio %}
+          <li>
+              {{ item.title }}
+              <img src="{{ item.thumbnail }}" width="200" height="200" alt="">
+          </li>
+      {% endfor %}
+
+  </ul>
+
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+
+</div>
