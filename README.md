@@ -1,17 +1,17 @@
 ## Getting started
 
 ### Xcode
-```
+```bash
 xcode-select --install
 ```
 
 ### Homebrew
-```
+```bash
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 ### Ruby
-```
+```bash
 brew update
 
 brew install rbenv ruby-build
@@ -30,11 +30,15 @@ eval "$(rbenv init -)"
 ```
 
 ### Bundler
-```
+```bash
 gem install bundler
 ```
 
 ### Node
-```
+```bash
 brew install node
+```
+### Serve local website
+```bash
+jekyll serve
 ```
