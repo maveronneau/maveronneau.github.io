@@ -32,6 +32,8 @@ eval "$(rbenv init -)"
 ### Bundler
 ```bash
 gem install bundler
+
+bundle install
 ```
 
 ### Node
@@ -40,5 +42,5 @@ brew install node
 ```
 ### Serve local website
 ```bash
-jekyll serve
+bundle exec jekyll serve
 ```
