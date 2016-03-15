@@ -13,10 +13,10 @@ layout: default
 	<div class="section">
 		<div class="wrapper">
 			<div class="row projects">
-				{% for item in site.project %}
+				{% for item in site.project reversed %}
 				<div class="col col-1of3">
 					<a class="project-thumbnail" href="{{ item.url }}"><img src="{{ item.thumbnail }}" alt="{{ item.title }}" /></a>
-					<a class="project-title" href="{{ item.url }}"><h4>{{ item.title }}</h4></a>
+					<a class="project-title" href="{{ item.url }}"><h4>{{ item.client }} {{ item.title }}</h4></a>
 					<span class="project-tags">{{ item.tags }}</span>
 				</div>
 				{% endfor %}

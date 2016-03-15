@@ -1,6 +1,13 @@
 .project-page {
+	font-size: 1.25rem;
 	h1 {
-		font-size: 3rem;
+		font-size: 4rem;
 		font-weight: 200;
+		letter-spacing: -0.025em;
+
+		.project-client {
+			font-size: 2rem;
+			font-weight: 500;
+		}
 	}
 }
