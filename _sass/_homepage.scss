@@ -1,0 +1,24 @@
+/**
+ * Portfolio showcase
+ */
+.projects {
+
+	.project-thumbnail {
+		display: block;
+		margin-bottom: 1rem;
+		&:hover {
+			-webkit-filter: brightness(103%);
+			transition: -webkit-filter 0.1s ease-out, filter 0.1s ease-out;
+		}		
+	}
+
+	.project-title {
+		font: 1.25rem 'PT Serif', Georgia, serif;
+		color: $title-color;
+		letter-spacing: -0.01em;
+
+		h4 {
+			margin-bottom: 0;
+		}
+	}
+}

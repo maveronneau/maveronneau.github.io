@@ -17,8 +17,9 @@ github_username:  maveronneau
 dribbble_username: maveronneau
 
 collections:
-  portfolio:
+  project:
     output: true
+    permalink: /project/:path/
 
 # Build settings
 markdown: kramdown

@@ -3,13 +3,24 @@ layout: default
 ---
 
 <div class="home">
-    <h1 class="page-heading">Portfolio</h1>
-    <ul>
-        {% for item in site.portfolio %}
-        <li>
-            <a href="{{ item.url }}">{{ item.title }}</a>
-            <img src="{{ item.thumbnail }}" width="200" height="200" alt="">
-        </li>
-        {% endfor %}
-    </ul>
+	<div class="section">
+		<div class="wrapper">
+			<p class="lead">
+				Marc-André Véronneau is an ambitious full-stack designer with 6 years of experience in the digital world. He’s driven by innovation, and passionate about crafting beautiful, memorable and meaningful experiences.
+			</p>
+		</div>
+	</div>
+	<div class="section">
+		<div class="wrapper">
+			<div class="row projects">
+				{% for item in site.project %}
+				<div class="col col-1of3">
+					<a class="project-thumbnail" href="{{ item.url }}"><img src="{{ item.thumbnail }}" alt="{{ item.title }}" /></a>
+					<a class="project-title" href="{{ item.url }}"><h4>{{ item.title }}</h4></a>
+					<span class="project-tags">{{ item.tags }}</span>
+				</div>
+				{% endfor %}
+			</div>			
+		</div>
+	</div>		
 </div>
