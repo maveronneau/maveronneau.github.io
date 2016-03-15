@@ -3,7 +3,7 @@ layout: project
 client: iWeb
 title: Dedicated Hosting
 year: 2015
-thumbnail: //placehold.it/306x304/51A669/000000
+thumbnail: /img/2015-iweb-dedicated-hosting/thumbnail-2015-iweb-dedicated-hosting.png
 tags: Art&nbsp;Direction,&nbsp;Visual&nbsp;Design
 ---
 

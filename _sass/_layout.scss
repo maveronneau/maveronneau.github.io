@@ -2,7 +2,10 @@
  * Site header
  */
 .site-header {
-	padding: 7rem 0  2rem 0;
+	padding: 4rem 0  2rem 0;
+	@media (min-width: 544px) {
+		padding: 7rem 0  2rem 0;
+	}	
 
 	// Positioning context for the mobile navigation icon
 	position: relative;
@@ -22,9 +25,18 @@
  * Site footer
  */
 .site-footer {
-	padding: 4rem 0;
+	padding: 2rem 0;
 	font-size: $small-font-size;
 	color: lighten($text-color, 25%);
+
+	.email {
+		color: lighten($text-color, 25%);
+		text-decoration: none;
+		&:hover {
+			color:  $brand-color;
+			text-decoration: underline;
+		}	
+	}
 }
 
 

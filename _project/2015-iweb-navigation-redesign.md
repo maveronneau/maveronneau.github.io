@@ -3,7 +3,7 @@ layout: project
 client: iWeb
 title: Navigation Redesign
 year: 2015
-thumbnail: //placehold.it/306x304/51A669/000000
+thumbnail: /img/2015-iweb-navigation-redesign/thumbnail-2015-iweb-navigation-redesign.png
 tags: UI&nbsp;Design,&nbsp;Information&nbsp;Architecture
 ---
 

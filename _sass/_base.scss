@@ -54,8 +54,11 @@ ul, ol, dl, figure,
  */
 p {
 	&.lead {
-		font-size: 2rem;
-		font-weight: 200;
+		font-size: 1.25rem;
+		@media (min-width: 544px) {
+			font-size: 2rem;
+			font-weight: 200;
+		}		
 	}
 }
 

@@ -1,9 +1,12 @@
 .project-page {
 	font-size: 1.25rem;
 	h1 {
-		font-size: 4rem;
+		font-size: 3rem;
 		font-weight: 200;
 		letter-spacing: -0.025em;
+		@media (min-width: 544px) {
+			font-size: 4rem;
+		}		
 
 		.project-client {
 			font-size: 2rem;

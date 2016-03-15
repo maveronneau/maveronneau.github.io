@@ -3,7 +3,7 @@ layout: project
 client: Internap
 title: Shopping Cart
 year: 2016
-thumbnail: //placehold.it/306x304/51A669/000000
+thumbnail: /img/2016-internap-shopping-cart/thumbnail-2016-internap-shopping-cart.png
 tags: UI&nbsp;&&nbsp;UX&nbsp;Design
 ---
 <h2>Brief</h2>
