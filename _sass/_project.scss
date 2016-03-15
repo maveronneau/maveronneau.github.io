@@ -10,4 +10,20 @@
 			font-weight: 500;
 		}
 	}
+	img {
+		margin-top: 3rem;
+
+		& + small {
+		 	display: block;
+			margin-top: 1.5rem;
+			margin-bottom: 3rem;
+			text-align: center;
+			font-size: $small-font-size;
+			color: lighten($text-color, 10%);
+
+			& + img {
+				margin-top: 1rem;
+			}
+		}
+	}
 }

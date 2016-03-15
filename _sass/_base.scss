@@ -93,12 +93,7 @@ ul, ol {
 
 li {
 	margin-bottom: 0.5rem;
-	list-style-type: none;
-	&:before {
-		content: "•";
-		color: lighten($text-color, 25%);
-		margin-right: 0.875rem;
-	}
+	list-style-position: inside;
 	> ul,
 	> ol {
 		 margin-bottom: 0;
