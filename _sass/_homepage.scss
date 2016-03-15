@@ -1,6 +1,18 @@
 /**
  * Portfolio showcase
  */
+
+.home {
+	.lead {
+		a {
+			color: $brand-color;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
 .projects {
 
 	.project-thumbnail {

@@ -130,16 +130,11 @@ h3 { font-size: 1.5rem; }
  * Links
  */
 a {
-	color: $brand-color;
+	color: #15181a;
 	text-decoration: none;
 
-	&:visited {
-		color: darken($brand-color, 15%);
-	}
-
 	&:hover {
-		color: $text-color;
-		text-decoration: underline;
+		color: $brand-color;
 	}
 }
 
